@@ -1,7 +1,7 @@
 
 Shiny app accompanying the manuscript "Mining inflammation in human transcriptomes: A consensus signature accross diseases and tissues"
 
-Available online: https://app-inflammationExplorer.cloud.sdu.dk
+Available online: https://app-inflammation-explorer.cloud.sdu.dk
 
 Try the app locally by running the following code in R:
 
@@ -9,7 +9,7 @@ Try the app locally by running the following code in R:
 install.packages("shiny")
 library(shiny)
 
-runGitHub("inflammationExplorer", "opalasca")
+runGitHub("inflammation-explorer", "opalasca")
 ```
 
 The app implements a collection of functions that can be used to assess the presence of inflammation, by exploring differential expression analysis results in transcriptomics or proteomics datasets. 
